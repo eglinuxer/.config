@@ -43,6 +43,8 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        cmdheight = 2, -- 增加命令行高度，避免复制时的提示
+        clipboard = "unnamedplus", -- 使用系统剪贴板
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
