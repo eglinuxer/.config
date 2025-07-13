@@ -8,5 +8,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  { import = "astrocommunity.terminal-integration.vim-tpipeline" },
   -- import/override with your plugins folder
 }
