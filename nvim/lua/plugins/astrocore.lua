@@ -77,6 +77,10 @@ return {
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
 
+        -- Additional LazyGit mappings (main mappings are in lazygit.lua)
+        ["<Leader>gg"] = { "<cmd>LazyGit<cr>", desc = "Open LazyGit" },
+        ["<Leader>gc"] = { "<cmd>LazyGitCurrentFile<cr>", desc = "LazyGit Current File" },
+
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
       },
