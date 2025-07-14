@@ -61,19 +61,19 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### 🌟 人气王者
 
-#### **catppuccin**
+#### **[catppuccin](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/catppuccin)**
 - **特点**：🍨 最受欢迎的现代主题
 - **变体**：latte, frappe, macchiato, mocha
 - **适用**：所有用户，高度可定制
 - **色调**：温和马卡龙色系
 
-#### **kanagawa-nvim**
+#### **[kanagawa-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/kanagawa-nvim)**
 - **特点**：🏞️ 日本浮世绘美学
 - **变体**：wave, lotus, dragon
 - **适用**：艺术感用户
 - **色调**：深邃优雅，护眼舒适
 
-#### **tokyonight-nvim**
+#### **[tokyonight-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/tokyonight-nvim)**
 - **特点**：🌃 东京夜景风格
 - **变体**：night, storm, day, moon
 - **适用**：现代开发者
@@ -81,41 +81,41 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### 💎 精品美学
 
-#### **rose-pine**
+#### **[rose-pine](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/rose-pine)**
 - **特点**：🌹 温柔玫瑰色调
 - **适用**：长时间编程用户
 - **特色**：护眼设计，低对比度
 
-#### **gruvbox-baby**
+#### **[gruvbox-baby](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/gruvbox-baby)**
 - **特点**：🎨 现代化经典重制
 - **适用**：gruvbox爱好者
 - **特色**：温暖复古，完整TreeSitter支持
 
-#### **cyberdream-nvim**
+#### **[cyberdream-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/cyberdream-nvim)**
 - **特点**：🤖 赛博朋克风格
 - **适用**：科幻主题爱好者
 - **特色**：霓虹色彩，未来感设计
 
 ### 🛡️ 专业护眼
 
-#### **modus-nvim**
+#### **[modus-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/modus-nvim)**
 - **特点**：♿ WCAG AAA标准
 - **适用**：无障碍需求用户
 - **特色**：最高对比度标准
 
-#### **lackluster-nvim**
+#### **[lackluster-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/lackluster-nvim)**
 - **特点**：🫥 优雅灰度主题
 - **适用**：极简主义者
 - **特色**：护眼灰度，减少干扰
 
 ### 🌍 自然风光
 
-#### **everforest**
+#### **[everforest](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/everforest)**
 - **特点**：🌲 常青森林主题
 - **适用**：自然爱好者
 - **特色**：绿色护眼，舒缓色调
 
-#### **bamboo-nvim**
+#### **[bamboo-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/colorscheme/bamboo-nvim)**
 - **特点**：🎋 竹子绿色自然
 - **适用**：禅意编程
 - **特色**：清新绿色，宁静感
@@ -138,39 +138,39 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### 🚀 现代补全引擎
 
-#### **blink-cmp** ⭐ *2024新星*
+#### **[blink-cmp](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/blink-cmp)** ⭐ *2024新星*
 - **特点**：电池内置，开箱即用
 - **性能**：Rust内核，极速响应
 - **生态**：专用扩展插件
 - **适用**：追求性能的现代用户
 - **状态**：LazyVim v14 默认选择
 
-#### **nvim-cmp** 📚 *经典标准*
+#### **[nvim-cmp](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/nvim-cmp)** 📚 *经典标准*
 - **特点**：Lua编写，生态丰富
 - **扩展**：大量第三方源
 - **适用**：需要高度定制的用户
 - **状态**：长期稳定，社区首选
 
-#### **coq_nvim** 🐍 *Python驱动*
+#### **[coq_nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/coq_nvim)** 🐍 *Python驱动*
 - **特点**：Python编写，快速启动
 - **适用**：Python开发者
 - **特色**：SQLite数据库优化
 
 ### 🤖 AI 代码助手
 
-#### **copilot-lua** 🎯 *GitHub官方*
+#### **[copilot-lua](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/copilot-lua)** 🎯 *GitHub官方*
 - **特点**：现代Lua实现
 - **功能**：整行/多行代码生成
 - **适用**：专业开发者
 - **集成**：与所有补全引擎兼容
 
-#### **codeium-nvim** 🆓 *免费选择*
+#### **[codeium-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/codeium-nvim)** 🆓 *免费选择*
 - **特点**：完全免费的AI助手
 - **性能**：快速响应
 - **适用**：个人开发者
 - **公司**：Windsurf（原Codeium）
 
-#### **supermaven-nvim** ⚡ *新兴之星*
+#### **[supermaven-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/supermaven-nvim)** ⚡ *新兴之星*
 - **特点**：超快响应速度
 - **技术**：专用优化算法
 - **适用**：追求极致性能的用户
@@ -178,15 +178,15 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 ### 🎯 专用补全源
 
 #### 通用增强
-- **cmp-calc**：数学计算补全
-- **cmp-emoji**：表情符号补全 😊
-- **cmp-spell**：拼写检查建议
-- **cmp-nerdfont**：Nerd Font图标补全
+- **[cmp-calc](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-calc)**：数学计算补全
+- **[cmp-emoji](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-emoji)**：表情符号补全 😊
+- **[cmp-spell](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-spell)**：拼写检查建议
+- **[cmp-nerdfont](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-nerdfont)**：Nerd Font图标补全
 
 #### 开发专用
-- **cmp-git**：Git提交信息补全
-- **cmp-latex-symbols**：LaTeX数学符号
-- **cmp-tmux**：tmux窗格内容补全
+- **[cmp-git](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-git)**：Git提交信息补全
+- **[cmp-latex-symbols](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-latex-symbols)**：LaTeX数学符号
+- **[cmp-tmux](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/completion/cmp-tmux)**：tmux窗格内容补全
 
 ### AI助手对比
 
@@ -205,79 +205,79 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### 🔧 代码生成与重构
 
-#### **neogen** 📝 *文档生成*
+#### **[neogen](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/neogen)** 📝 *文档生成*
 - **功能**：自动生成函数/类文档
 - **支持**：多种语言和文档格式
 - **特点**：模板可定制，快捷键友好
 - **用途**：API文档，代码注释
 
-#### **refactoring-nvim** 🔄 *代码重构*
+#### **[refactoring-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/refactoring-nvim)** 🔄 *代码重构*
 - **功能**：安全的代码重构操作
 - **特点**：TreeSitter驱动，语法感知
 - **操作**：提取函数，重命名，内联等
 - **适用**：大型项目维护
 
-#### **treesj** 🌳 *代码分割合并*
+#### **[treesj](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/treesj)** 🌳 *代码分割合并*
 - **功能**：智能代码块分割/合并
 - **技术**：TreeSitter语法树
 - **用途**：代码格式化，可读性优化
 
 ### 🖱️ 多光标与选择
 
-#### **multicursors-nvim** 🎯 *现代多光标*
+#### **[multicursors-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/multicursors-nvim)** 🎯 *现代多光标*
 - **特点**：基于TreeSitter的智能选择
 - **功能**：同时编辑多个位置
 - **优势**：性能优化，稳定性高
 
-#### **wildfire-nvim** 🔥 *智能扩选*
+#### **[wildfire-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/wildfire-nvim)** 🔥 *智能扩选*
 - **功能**：逐级扩展文本选择
 - **智能**：基于语法的边界识别
 - **效率**：快速选择复杂结构
 
 ### 🌈 括号与配对
 
-#### **ultimate-autopair-nvim** 💑 *终极配对*
+#### **[ultimate-autopair-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/ultimate-autopair-nvim)** 💑 *终极配对*
 - **功能**：智能括号/引号自动配对
 - **特点**：上下文感知，多语言支持
 - **优势**：配置简单，功能强大
 
-#### **rainbow-delimiters-nvim** 🌈 *彩虹括号*
+#### **[rainbow-delimiters-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/rainbow-delimiters-nvim)** 🌈 *彩虹括号*
 - **功能**：多色显示配对括号
 - **技术**：TreeSitter精确识别
 - **用途**：复杂嵌套结构可视化
 
 ### 📝 文本操作
 
-#### **text-case-nvim** 🔤 *大小写转换*
+#### **[text-case-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/text-case-nvim)** 🔤 *大小写转换*
 - **功能**：快速转换文本大小写
 - **格式**：camelCase, snake_case, CONSTANT等
 - **适用**：代码规范化
 
-#### **yanky-nvim** 📋 *增强复制*
+#### **[yanky-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/yanky-nvim)** 📋 *增强复制*
 - **功能**：历史剪贴板管理
 - **特点**：可视化选择，快速粘贴
 - **效率**：告别重复复制操作
 
 ### 🧘 专注模式
 
-#### **zen-mode-nvim** 🧘 *禅模式*
+#### **[zen-mode-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/zen-mode-nvim)** 🧘 *禅模式*
 - **功能**：无干扰编写环境
 - **特点**：隐藏界面元素，居中显示
 - **适用**：写作，专注编程
 
-#### **true-zen-nvim** 🎯 *全屏专注*
+#### **[true-zen-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/true-zen-nvim)** 🎯 *全屏专注*
 - **功能**：多种专注模式
 - **特点**：全屏，最小化，焦点模式
 - **灵活**：可自定义专注级别
 
 ### 🔍 上下文与导航
 
-#### **nvim-treesitter-context** 🎪 *上下文显示*
+#### **[nvim-treesitter-context](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/nvim-treesitter-context)** 🎪 *上下文显示*
 - **功能**：显示当前函数/类名
 - **位置**：编辑器顶部固定显示
 - **用途**：长文件导航，上下文理解
 
-#### **todo-comments-nvim** ✅ *TODO管理*
+#### **[todo-comments-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/editing-support/todo-comments-nvim)** ✅ *TODO管理*
 - **功能**：高亮和搜索TODO注释
 - **支持**：TODO, FIXME, NOTE等关键词
 - **特点**：快速导航，统计功能
@@ -300,55 +300,55 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### 🔍 Blame 和历史
 
-#### **git-blame-nvim** 👤 *简单blame*
+#### **[git-blame-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/git-blame-nvim)** 👤 *简单blame*
 - **功能**：行级作者信息显示
 - **特点**：轻量级，快速加载
 - **适用**：基础blame需求
 
-#### **blame-nvim** 📊 *增强blame*
+#### **[blame-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/blame-nvim)** 📊 *增强blame*
 - **功能**：详细的blame信息面板
 - **特点**：更丰富的显示选项
 - **适用**：深度代码审查
 
 ### 📊 可视化对比
 
-#### **diffview-nvim** 🔄 *强大diff查看*
+#### **[diffview-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/diffview-nvim)** 🔄 *强大diff查看*
 - **功能**：分屏对比文件差异
 - **特点**：支持提交历史查看
 - **适用**：代码审查，历史分析
 
-#### **gitgraph-nvim** 📈 *提交图形化*
+#### **[gitgraph-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/gitgraph-nvim)** 📈 *提交图形化*
 - **功能**：可视化Git提交历史
 - **特点**：分支关系清晰显示
 - **适用**：复杂项目的历史理解
 
 ### 🚀 完整Git界面
 
-#### **neogit** 🎛️ *全功能Git界面*
+#### **[neogit](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/neogit)** 🎛️ *全功能Git界面*
 - **功能**：类似magit的完整Git操作
 - **特点**：强大的交互式界面
 - **适用**：重度Git用户
 
-#### **fugit2-nvim** ⚡ *现代Git工具*
+#### **[fugit2-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/fugit2-nvim)** ⚡ *现代Git工具*
 - **功能**：现代化的Git操作界面
 - **特点**：快速响应，美观界面
 - **适用**：追求现代体验的用户
 
 ### 🔗 链接和共享
 
-#### **gitlinker-nvim** 🔗 *链接生成*
+#### **[gitlinker-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/gitlinker-nvim)** 🔗 *链接生成*
 - **功能**：生成Git仓库在线链接
 - **用途**：快速分享代码片段
 - **支持**：GitHub, GitLab等平台
 
-#### **openingh-nvim** 🌐 *GitHub快速打开*
+#### **[openingh-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/openingh-nvim)** 🌐 *GitHub快速打开*
 - **功能**：在浏览器中打开当前文件
 - **特点**：支持选定行范围
 - **效率**：无需手动导航
 
 ### 🔨 快速操作
 
-#### **nvim-tinygit** ⚡ *轻量Git操作*
+#### **[nvim-tinygit](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/git/nvim-tinygit)** ⚡ *轻量Git操作*
 - **功能**：常用Git操作的快速执行
 - **特点**：智能提交，安全推送
 - **适用**：日常开发工作流
@@ -370,61 +370,61 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### 🎨 界面美化
 
-#### **lspsaga-nvim** 🎭 *美化LSP界面*
+#### **[lspsaga-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/lspsaga-nvim)** 🎭 *美化LSP界面*
 - **功能**：重新设计LSP操作界面
 - **特点**：漂亮的浮动窗口，图标丰富
 - **包含**：代码动作，诊断，重命名等
 - **适用**：注重视觉体验的用户
 
-#### **actions-preview-nvim** 👀 *代码动作预览*
+#### **[actions-preview-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/actions-preview-nvim)** 👀 *代码动作预览*
 - **功能**：在应用前预览代码动作效果
 - **安全**：避免意外修改
 - **效率**：直观的选择界面
 
 ### 🔧 功能增强
 
-#### **inc-rename-nvim** ✏️ *增量重命名*
+#### **[inc-rename-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/inc-rename-nvim)** ✏️ *增量重命名*
 - **功能**：实时预览重命名效果
 - **特点**：输入时即时显示变更
 - **安全**：重命名前确认所有影响
 
-#### **lsp-signature-nvim** 📝 *函数签名提示*
+#### **[lsp-signature-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/lsp-signature-nvim)** 📝 *函数签名提示*
 - **功能**：输入参数时显示函数签名
 - **特点**：高亮当前参数位置
 - **效率**：减少查阅文档时间
 
 ### 🧹 性能优化
 
-#### **garbage-day-nvim** 🗑️ *LSP垃圾回收*
+#### **[garbage-day-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/garbage-day-nvim)** 🗑️ *LSP垃圾回收*
 - **功能**：自动管理LSP服务器内存
 - **优化**：清理不用的服务器进程
 - **适用**：大型项目，多语言开发
 
-#### **lsp-lens-nvim** 👁️ *代码透镜*
+#### **[lsp-lens-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/lsp-lens-nvim)** 👁️ *代码透镜*
 - **功能**：显示引用计数等信息
 - **位置**：代码行上方显示
 - **用途**：快速了解代码使用情况
 
 ### 🔍 专业工具
 
-#### **nvim-java** ☕ *Java专用LSP*
+#### **[nvim-java](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/nvim-java)** ☕ *Java专用LSP*
 - **功能**：Java开发的完整LSP配置
 - **特点**：Eclipse JDT集成
 - **包含**：调试，测试，构建工具
 
-#### **sonarlint-nvim** 🔍 *静态代码分析*
+#### **[sonarlint-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/sonarlint-nvim)** 🔍 *静态代码分析*
 - **功能**：SonarLint规则检查
 - **用途**：代码质量，安全漏洞检测
 - **适用**：企业级代码质量要求
 
 ### 🌐 语言特定
 
-#### **ts-error-translator-nvim** 🔤 *TypeScript错误翻译*
+#### **[ts-error-translator-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/ts-error-translator-nvim)** 🔤 *TypeScript错误翻译*
 - **功能**：翻译TS错误信息为简单描述
 - **特点**：减少理解复杂错误的时间
 - **适用**：TypeScript开发者
 
-#### **nvim-lint** ⚡ *代码检查*
+#### **[nvim-lint](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/lsp/nvim-lint)** ⚡ *代码检查*
 - **功能**：集成多种代码检查工具
 - **支持**：ESLint, Flake8, ShellCheck等
 - **特点**：异步执行，不阻塞编辑
@@ -446,67 +446,67 @@ AstroNvim Community (astrocommunity) 是一个包含 **300+** 插件的社区仓
 
 ### ⚡ 现代跳转引擎
 
-#### **flash-nvim** ⚡ *最新跳转引擎*
+#### **[flash-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/flash-nvim)** ⚡ *最新跳转引擎*
 - **特点**：无字符数限制，TreeSitter集成
 - **功能**：搜索跳转，treesitter跳转，remote操作
 - **优势**：智能标签，预览模式
 - **状态**：2024年新标准，替代hop/leap
 
-#### **leap-nvim** 🦘 *两字符跳转*
+#### **[leap-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/leap-nvim)** 🦘 *两字符跳转*
 - **特点**："neovim的鼠标答案"
 - **操作**：输入2个字符即可跳转
 - **特色**：优雅的标签显示
 - **哲学**：最少按键，最快到达
 
-#### **hop-nvim** 🐰 *EasyMotion风格*
+#### **[hop-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/hop-nvim)** 🐰 *EasyMotion风格*
 - **特点**：多种跳转模式
 - **功能**：单词跳转，行跳转，字符跳转
 - **适用**：习惯EasyMotion的用户
 
 ### 📁 文件级导航
 
-#### **harpoon** 🎯 *ThePrimeagen的神器*
+#### **[harpoon](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/harpoon)** 🎯 *ThePrimeagen的神器*
 - **功能**：快速文件标记和跳转
 - **特点**：数字键快速切换文件
 - **哲学**：工作流中的核心文件固定
 - **适用**：经常在固定文件间切换
 
-#### **grapple-nvim** 🪝 *另一个文件标记*
+#### **[grapple-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/grapple-nvim)** 🪝 *另一个文件标记*
 - **功能**：类似harpoon的文件标记
 - **特点**：可能有不同的UI和操作逻辑
 - **选择**：与harpoon功能相似，看个人喜好
 
 ### 🎯 文本对象与环绕
 
-#### **nvim-surround** 🔄 *现代环绕操作*
+#### **[nvim-surround](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/nvim-surround)** 🔄 *现代环绕操作*
 - **功能**：添加、修改、删除环绕符号
 - **特点**：Lua编写，高度可配置
 - **操作**：`cs'"` (change surround ' to ")
 - **状态**：vim-surround的现代替代
 
-#### **mini-surround** 🔄 *mini.nvim环绕*
+#### **[mini-surround](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/mini-surround)** 🔄 *mini.nvim环绕*
 - **功能**：环绕操作的轻量实现
 - **特点**：mini.nvim生态的一部分
 - **选择**：如果已使用mini.nvim，推荐此版本
 
-#### **mini-ai** 🧠 *智能文本对象*
+#### **[mini-ai](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/mini-ai)** 🧠 *智能文本对象*
 - **功能**：增强的文本对象选择
 - **特点**：更智能的in/around逻辑
 - **用途**：提升文本操作效率
 
 ### 🎪 移动增强
 
-#### **nvim-spider** 🕷️ *子词移动*
+#### **[nvim-spider](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/nvim-spider)** 🕷️ *子词移动*
 - **功能**：camelCase, snake_case等子词跳转
 - **用途**：在复合词内精确移动
 - **效率**：编程中的变量名导航
 
-#### **tabout-nvim** 🚪 *智能跳出*
+#### **[tabout-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/tabout-nvim)** 🚪 *智能跳出*
 - **功能**：从括号、引号中智能跳出
 - **特点**：上下文感知的Tab键行为
 - **用途**：避免在嵌套结构中迷失
 
-#### **vim-matchup** 🔗 *增强匹配*
+#### **[vim-matchup](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/motion/vim-matchup)** 🔗 *增强匹配*
 - **功能**：增强的%匹配功能
 - **支持**：if-else, 开闭标签等
 - **特点**：语言感知的结构匹配
@@ -551,14 +551,14 @@ nvim-surround + mini-ai + tabout-nvim
 
 ### 🛠️ 创新型浏览器
 
-#### **oil-nvim** 🛢️ *目录即缓冲区*
+#### **[oil-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/file-explorer/oil-nvim)** 🛢️ *目录即缓冲区*
 - **理念**：将目录当作可编辑的缓冲区
 - **操作**：像编辑文件一样编辑目录结构
 - **优势**：批量重命名，Vim操作方式
 - **适用**：喜欢纯键盘操作的用户
 - **特色**：`:w` 保存目录修改
 
-#### **mini-files** 📂 *mini.nvim文件管理*
+#### **[mini-files](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/file-explorer/mini-files)** 📂 *mini.nvim文件管理*
 - **特点**：mini.nvim生态的文件浏览器
 - **设计**：简洁，高性能
 - **集成**：与mini生态深度集成
@@ -566,13 +566,13 @@ nvim-surround + mini-ai + tabout-nvim
 
 ### 🔭 集成型浏览器
 
-#### **telescope-file-browser-nvim** 🌌 *Telescope扩展*
+#### **[telescope-file-browser-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/file-explorer/telescope-file-browser-nvim)** 🌌 *Telescope扩展*
 - **功能**：基于Telescope的文件浏览
 - **特点**：模糊搜索能力强
 - **集成**：与Telescope生态无缝结合
 - **适用**：Telescope重度用户
 
-#### **fyler-nvim** 📋 *另一选择*
+#### **[fyler-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/file-explorer/fyler-nvim)** 📋 *另一选择*
 - **特点**：可能提供不同的操作体验
 - **定位**：轻量级文件管理器
 - **适用**：寻求简单解决方案的用户
@@ -615,14 +615,14 @@ nvim-surround + mini-ai + tabout-nvim
 
 ### 🌌 主流选择
 
-#### **telescope-nvim** 🔭 *社区标准*
+#### **[telescope-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/fuzzy-finder/telescope-nvim)** 🔭 *社区标准*
 - **地位**：Neovim生态的查找标杆
 - **功能**：文件、内容、LSP、Git等全方位搜索
 - **生态**：丰富的扩展插件
 - **特点**：高度可定制，预览功能强
 - **适用**：所有用户的首选
 
-#### **fzf-lua** ⚡ *性能王者*
+#### **[fzf-lua](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/fuzzy-finder/fzf-lua)** ⚡ *性能王者*
 - **特点**：Lua原生实现，性能极佳
 - **优势**：大项目中响应更快
 - **功能**：与telescope功能相当
@@ -630,20 +630,20 @@ nvim-surround + mini-ai + tabout-nvim
 
 ### 🚀 现代创新
 
-#### **snacks-picker** 🍿 *新兴选择*
+#### **[snacks-picker](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/fuzzy-finder/snacks-picker)** 🍿 *新兴选择*
 - **特点**：2024年新出现的现代选择器
 - **设计**：可能有不同的UI和交互方式
 - **状态**：新兴工具，值得关注
 
 ### 🧭 专用工具
 
-#### **telescope-zoxide** 📍 *智能目录跳转*
+#### **[telescope-zoxide](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/fuzzy-finder/telescope-zoxide)** 📍 *智能目录跳转*
 - **功能**：基于历史的智能目录切换
 - **技术**：zoxide算法，学习使用习惯
 - **效率**：快速跳转到常用目录
 - **集成**：telescope扩展形式
 
-#### **namu-nvim** 🗺️ *另一查找工具*
+#### **[namu-nvim](https://github.com/AstroNvim/astrocommunity/tree/main/lua/astrocommunity/fuzzy-finder/namu-nvim)** 🗺️ *另一查找工具*
 - **特点**：可能提供独特的搜索体验
 - **定位**：轻量级查找解决方案
 
