@@ -10,5 +10,14 @@ return {
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.terminal-integration.vim-tpipeline" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.completion.blink-cmp" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.python" },
   -- import/override with your plugins folder
 }
