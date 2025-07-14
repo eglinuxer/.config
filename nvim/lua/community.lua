@@ -20,5 +20,6 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.indent.indent-tools-nvim" },
+  { import = "astrocommunity.indent.indent-blankline-nvim" },
   -- import/override with your plugins folder
 }

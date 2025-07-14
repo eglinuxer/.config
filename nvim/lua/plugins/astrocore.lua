@@ -52,6 +52,17 @@ return {
         expandtab = true, -- use spaces instead of tabs
         smartindent = true, -- smart indentation
         autoindent = true, -- auto indentation
+        -- invisible characters display
+        list = true, -- enable list mode to show invisible characters
+        listchars = {
+          space = "·", -- show spaces as dots
+          tab = "→ ", -- show tabs as arrows
+          eol = "↵", -- show line endings
+          trail = "●", -- show trailing spaces as bullets
+          extends = "»", -- show line extends off screen
+          precedes = "«", -- show line precedes off screen
+          nbsp = "×", -- show non-breaking spaces
+        },
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -73,7 +84,7 @@ return {
           end,
         },
         {
-          event = "FileType", 
+          event = "FileType",
           pattern = { "c", "cpp", "h", "hpp" },
           callback = function()
             vim.opt_local.tabstop = 4
@@ -139,6 +150,9 @@ return {
         -- Additional LazyGit mappings (main mappings are in lazygit.lua)
         ["<Leader>gg"] = { "<cmd>LazyGit<cr>", desc = "Open LazyGit" },
         ["<Leader>gc"] = { "<cmd>LazyGitCurrentFile<cr>", desc = "LazyGit Current File" },
+
+        -- Toggle invisible characters
+        ["<Leader>ui"] = { "<cmd>set list!<cr>", desc = "Toggle invisible characters" },
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
