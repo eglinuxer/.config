@@ -42,7 +42,7 @@ return {
         number = true, -- sets vim.opt.number
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
-        wrap = false, -- sets vim.opt.wrap
+        wrap = true, -- sets vim.opt.wrap
         cmdheight = 2, -- 增加命令行高度，避免复制时的提示
         clipboard = "unnamedplus", -- 使用系统剪贴板
       },
