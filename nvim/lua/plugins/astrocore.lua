@@ -19,8 +19,21 @@ return {
     },
     -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
     diagnostics = {
-      virtual_text = true,
+      virtual_text = {
+        prefix = "●", -- change diagnostic symbols
+        spacing = 2,
+        severity = { min = vim.diagnostic.severity.HINT }, -- show all severities
+      },
       underline = true,
+      signs = true, -- show signs in sign column
+      severity_sort = true, -- sort by severity
+      float = {
+        border = "rounded", -- rounded border for diagnostic floats
+        source = true, -- show source of diagnostic
+        header = "",
+        prefix = "",
+      },
+      update_in_insert = false, -- don't update diagnostics in insert mode
     },
     -- passed to `vim.filetype.add`
     filetypes = {
@@ -153,6 +166,12 @@ return {
 
         -- Toggle invisible characters
         ["<Leader>ui"] = { "<cmd>set list!<cr>", desc = "Toggle invisible characters" },
+
+        -- Diagnostic navigation
+        ["]d"] = { function() vim.diagnostic.goto_next() end, desc = "Next diagnostic" },
+        ["[d"] = { function() vim.diagnostic.goto_prev() end, desc = "Previous diagnostic" },
+        ["<Leader>ld"] = { function() vim.diagnostic.open_float() end, desc = "Show line diagnostics" },
+        ["<Leader>lD"] = { function() vim.diagnostic.setloclist() end, desc = "Show diagnostics list" },
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,

@@ -11,6 +11,10 @@ return {
       ensure_installed = {
         -- install language servers
         "lua-language-server",
+        "pyright",
+        "clangd", 
+        "bash-language-server",
+        "cmake-language-server",
 
         -- install formatters
         "stylua",
