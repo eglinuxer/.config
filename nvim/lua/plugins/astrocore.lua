@@ -43,13 +43,72 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = true, -- sets vim.opt.wrap
-        cmdheight = 2, -- 增加命令行高度，避免复制时的提示
-        clipboard = "unnamedplus", -- 使用系统剪贴板
+        cmdheight = 2, -- increase command line height to avoid copy prompts
+        clipboard = "unnamedplus", -- use system clipboard
+        -- default indentation settings
+        tabstop = 2, -- display width of tab character
+        shiftwidth = 2, -- auto-indent width
+        softtabstop = 2, -- tab width in insert mode
+        expandtab = true, -- use spaces instead of tabs
+        smartindent = true, -- smart indentation
+        autoindent = true, -- auto indentation
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
         -- This can be found in the `lua/lazy_setup.lua` file
+      },
+    },
+    -- autocmd configuration
+    autocmds = {
+      -- language-specific indentation settings
+      indent_settings = {
+        {
+          event = "FileType",
+          pattern = { "python" },
+          callback = function()
+            vim.opt_local.tabstop = 4
+            vim.opt_local.shiftwidth = 4
+            vim.opt_local.softtabstop = 4
+          end,
+        },
+        {
+          event = "FileType", 
+          pattern = { "c", "cpp", "h", "hpp" },
+          callback = function()
+            vim.opt_local.tabstop = 4
+            vim.opt_local.shiftwidth = 4
+            vim.opt_local.softtabstop = 4
+          end,
+        },
+        {
+          event = "FileType",
+          pattern = { "sh", "bash", "zsh" },
+          callback = function()
+            vim.opt_local.tabstop = 4
+            vim.opt_local.shiftwidth = 4
+            vim.opt_local.softtabstop = 4
+          end,
+        },
+        {
+          event = "FileType",
+          pattern = { "cmake" },
+          callback = function()
+            vim.opt_local.tabstop = 4
+            vim.opt_local.shiftwidth = 4
+            vim.opt_local.softtabstop = 4
+          end,
+        },
+        {
+          event = "FileType",
+          pattern = { "make", "makefile" },
+          callback = function()
+            vim.opt_local.tabstop = 4
+            vim.opt_local.shiftwidth = 4
+            vim.opt_local.softtabstop = 4
+            vim.opt_local.expandtab = false
+          end,
+        },
       },
     },
     -- Mappings can be configured through AstroCore as well.

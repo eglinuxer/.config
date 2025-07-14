@@ -19,5 +19,6 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.indent.indent-tools-nvim" },
   -- import/override with your plugins folder
 }
