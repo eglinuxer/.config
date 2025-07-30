@@ -68,13 +68,14 @@ return {
         -- invisible characters display
         list = true, -- enable list mode to show invisible characters
         listchars = {
-          space = "·", -- show spaces as dots
+          space = "⋅", -- show spaces as middle dots (more visible)
           tab = "→ ", -- show tabs as arrows
-          eol = "↵", -- show line endings
-          trail = "●", -- show trailing spaces as bullets
+          eol = "⏎", -- show line endings (balanced visibility)
+          trail = "▪", -- show trailing spaces as small squares
           extends = "»", -- show line extends off screen
           precedes = "«", -- show line precedes off screen
           nbsp = "×", -- show non-breaking spaces
+          -- multispace = "⋅⋅⋅+", -- show multiple spaces with pattern
         },
       },
       g = { -- vim.g.<key>
@@ -166,6 +167,16 @@ return {
 
         -- Toggle invisible characters
         ["<Leader>ui"] = { "<cmd>set list!<cr>", desc = "Toggle invisible characters" },
+        
+        -- Debug character under cursor
+        ["<Leader>uc"] = { 
+          function()
+            local char = vim.fn.getline('.'):sub(vim.fn.col('.'), vim.fn.col('.'))
+            local byte = string.byte(char)
+            print(string.format("Char: '%s', ASCII: %d, Hex: 0x%02X", char == '' and 'EOF' or char, byte or 0, byte or 0))
+          end, 
+          desc = "Show character info under cursor" 
+        },
 
         -- Diagnostic navigation
         ["]d"] = { function() vim.diagnostic.goto_next() end, desc = "Next diagnostic" },
